@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Homework5B"
+             x:Class="Homework5B.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="My Hero Academia Quiz"
+           HorizontalOptions="Center"/>
+        <StackLayout
+            x:Name="FirstQuestion">
+            <Label
+                Text="How is you resinship with your dad?"></Label>
+            <Button
+                Text="Good"
+                Clicked="Dad_good"></Button>
+            <Button
+                Text="Bad"
+                Clicked="Dad_Bad"></Button>
+        </StackLayout>
+        <StackLayout
+            x:Name="SecQuestion"
+            IsVisible="False">
+            <Label
+                Text="Why are you a hero?"></Label>
+            <Button
+                Text="For fame an glory"
+                Clicked="Fame_and_glory"></Button>
+            <Button
+                Text="Because it is the right thing to do!"
+                Clicked="RightThnig"></Button>
+        </StackLayout>
+        
+        <StackLayout
+            x:Name="ThirdQuestion"
+            IsVisible="False">
+            <Label
+                Text="What is the most imtporent thing to do to a villin"></Label>
+            <Button
+                Text="capture the villain"
+                Clicked="capture_the_villain"></Button>
+            <Button
+                Text="Kill the villlin"
+                Clicked="Kill_the_villain"></Button>
+        </StackLayout>
+        
+        <StackLayout
+            x:Name="ForthQuestion"
+            IsVisible="False">
+            <Label
+                Text="Is deko a friend or a rival"></Label>
+            <Button
+                Text="rival"
+                Clicked="rival"></Button>
+            <Button
+                Text="friend"
+                Clicked="friend"></Button>
+        </StackLayout>
+        
+        <StackLayout
+            x:Name="QuestionFive"
+            IsVisible="False">
+            <Label
+                Text="Is all might cool"></Label>
+            <Button
+                Text="All might is cool"
+                Clicked="All_might_is_cool"></Button>
+            <Button
+                Text="All might is not cool"
+                Clicked="All_might_is_not_cool"></Button>
+        </StackLayout>
+        
+        <StackLayout
+            x:Name="next"
+            IsVisible="False">
+            <Label
+                Text="Find out who you are"></Label>
+            <Button
+                Text="Submit"
+                Clicked="submit"></Button>
+        </StackLayout>
+        <StackLayout
+            x:Name="rezalt"
+            IsVisible="False">
+            <Label
+                x:Name="out"
+                ></Label>
+            <Button
+                Clicked="Reset"></Button>
+        </StackLayout>
+        
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,12 @@
+C:\Users\jmotl\RiderProjects\Homework5B\Homework5B\Homework5B\bin\Debug\netstandard2.0\Homework5B.deps.json
+C:\Users\jmotl\RiderProjects\Homework5B\Homework5B\Homework5B\bin\Debug\netstandard2.0\Homework5B.dll
+C:\Users\jmotl\RiderProjects\Homework5B\Homework5B\Homework5B\bin\Debug\netstandard2.0\Homework5B.pdb
+C:\Users\jmotl\RiderProjects\Homework5B\Homework5B\Homework5B\obj\Debug\netstandard2.0\Homework5B.csprojAssemblyReference.cache
+C:\Users\jmotl\RiderProjects\Homework5B\Homework5B\Homework5B\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\jmotl\RiderProjects\Homework5B\Homework5B\Homework5B\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\jmotl\RiderProjects\Homework5B\Homework5B\Homework5B\obj\Debug\netstandard2.0\Homework5B.AssemblyInfoInputs.cache
+C:\Users\jmotl\RiderProjects\Homework5B\Homework5B\Homework5B\obj\Debug\netstandard2.0\Homework5B.AssemblyInfo.cs
+C:\Users\jmotl\RiderProjects\Homework5B\Homework5B\Homework5B\obj\Debug\netstandard2.0\Homework5B.csproj.CoreCompileInputs.cache
+C:\Users\jmotl\RiderProjects\Homework5B\Homework5B\Homework5B\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\jmotl\RiderProjects\Homework5B\Homework5B\Homework5B\obj\Debug\netstandard2.0\Homework5B.dll
+C:\Users\jmotl\RiderProjects\Homework5B\Homework5B\Homework5B\obj\Debug\netstandard2.0\Homework5B.pdb

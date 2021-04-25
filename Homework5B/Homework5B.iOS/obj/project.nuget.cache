@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MUW/m3RuU2oa6GBkEMmb/GlFjkxrrth5ARYcpoMXtoIOSZ6gzVd4Rf+B5UvYSOTCMy0xcaVLw3MXbKEOJvbZLA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jmotl\\RiderProjects\\Homework5B\\Homework5B\\Homework5B.iOS\\Homework5B.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jmotl\\.nuget\\packages\\xamarin.forms\\4.4.0.991640\\xamarin.forms.4.4.0.991640.nupkg.sha512"
+  ],
+  "logs": []
+}
