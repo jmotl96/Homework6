@@ -3,33 +3,54 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Homework5B"
              x:Class="Homework5B.MainPage">
-
+    
     <StackLayout>
         <!-- Place new controls here -->
         <Label Text="My Hero Academia Quiz"
            HorizontalOptions="Center"/>
+        
+        
         <StackLayout
-            x:Name="FirstQuestion">
-            <Label
-                Text="How is you resinship with your dad?"></Label>
-            <Button
-                Text="Good"
-                Clicked="Dad_good"></Button>
-            <Button
-                Text="Bad"
-                Clicked="Dad_Bad"></Button>
+            x:Name="FirstQuestion"
+            IsVisible="true"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="CenterAndExpand"
+            >
+            <Label Text="How is you resinship with your dad?"></Label>
+            
+            
+            <local:SwipeContainer Swipe="Dad_good" 
+                                  x:Name="SwipeContainer_dad"
+                                  VerticalOptions="CenterAndExpand"
+                                  HorizontalOptions="CenterAndExpand">
+                <BoxView
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    WidthRequest="500"
+                    HeightRequest="600"
+                    ></BoxView>
+                
+            </local:SwipeContainer>
         </StackLayout>
         <StackLayout
             x:Name="SecQuestion"
-            IsVisible="False">
-            <Label
-                Text="Why are you a hero?"></Label>
-            <Button
-                Text="For fame an glory"
-                Clicked="Fame_and_glory"></Button>
-            <Button
-                Text="Because it is the right thing to do!"
-                Clicked="RightThnig"></Button>
+            IsVisible="False"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="CenterAndExpand">
+            <Label Text="Why are you a hero?"></Label>
+            <Label Text="Swipe Left if it is for fame anf glory : Right if it is the right thing to do"></Label>
+            <local:SwipeContainer Swipe="RightThnig" 
+                                  x:Name="SwipeContainer_hero"
+                                  VerticalOptions="CenterAndExpand"
+                                  HorizontalOptions="CenterAndExpand">
+                <BoxView
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    WidthRequest="500"
+                    HeightRequest="600"
+                    Color="Purple"></BoxView>
+                
+            </local:SwipeContainer>
         </StackLayout>
         
         <StackLayout
@@ -37,12 +58,17 @@
             IsVisible="False">
             <Label
                 Text="What is the most imtporent thing to do to a villin"></Label>
-            <Button
-                Text="capture the villain"
-                Clicked="capture_the_villain"></Button>
-            <Button
-                Text="Kill the villlin"
-                Clicked="Kill_the_villain"></Button>
+            <local:SwipeContainer Swipe="capture_the_villain" 
+                                  x:Name="SwipeContainer_Villin"
+                                  VerticalOptions="CenterAndExpand"
+                                  HorizontalOptions="CenterAndExpand">
+                <BoxView
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    WidthRequest="500"
+                    HeightRequest="600"
+                    Color="Red"></BoxView>
+            </local:SwipeContainer>
         </StackLayout>
         
         <StackLayout
@@ -50,12 +76,17 @@
             IsVisible="False">
             <Label
                 Text="Is deko a friend or a rival"></Label>
-            <Button
-                Text="rival"
-                Clicked="rival"></Button>
-            <Button
-                Text="friend"
-                Clicked="friend"></Button>
+            <local:SwipeContainer Swipe="friend" 
+                                  x:Name="SwipeContainer_Deko"
+                                  VerticalOptions="CenterAndExpand"
+                                  HorizontalOptions="CenterAndExpand">
+                <BoxView
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    WidthRequest="500"
+                    HeightRequest="600"
+                    Color="Red"></BoxView>
+            </local:SwipeContainer>
         </StackLayout>
         
         <StackLayout
@@ -63,22 +94,30 @@
             IsVisible="False">
             <Label
                 Text="Is all might cool"></Label>
-            <Button
-                Text="All might is cool"
-                Clicked="All_might_is_cool"></Button>
-            <Button
-                Text="All might is not cool"
-                Clicked="All_might_is_not_cool"></Button>
+            <local:SwipeContainer Swipe="All_might_is_cool" 
+                                  x:Name="SwipeContainer_allmight"
+                                  VerticalOptions="CenterAndExpand"
+                                  HorizontalOptions="CenterAndExpand">
+                <BoxView
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    WidthRequest="500"
+                    HeightRequest="600"
+                    Color="Yellow"></BoxView>
+            </local:SwipeContainer>
         </StackLayout>
         
         <StackLayout
             x:Name="next"
             IsVisible="False">
             <Label
-                Text="Find out who you are"></Label>
+                Text="Find out who you are"
+                HorizontalOptions="CenterAndExpand"></Label>
             <Button
                 Text="Submit"
-                Clicked="submit"></Button>
+                Clicked="submit"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"></Button>
         </StackLayout>
         <StackLayout
             x:Name="rezalt"
@@ -87,8 +126,12 @@
                 x:Name="out"
                 ></Label>
             <Button
-                Clicked="Reset"></Button>
+                Clicked="Reset"
+                Text="Back to start"></Button>
         </StackLayout>
+            
+            
+        
         
     </StackLayout>
 

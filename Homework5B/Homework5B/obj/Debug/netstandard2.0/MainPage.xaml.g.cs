@@ -20,16 +20,31 @@ namespace Homework5B {
         private global::Xamarin.Forms.StackLayout FirstQuestion;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Homework5B.SwipeContainer SwipeContainer_dad;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.StackLayout SecQuestion;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Homework5B.SwipeContainer SwipeContainer_hero;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.StackLayout ThirdQuestion;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Homework5B.SwipeContainer SwipeContainer_Villin;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.StackLayout ForthQuestion;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Homework5B.SwipeContainer SwipeContainer_Deko;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.StackLayout QuestionFive;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Homework5B.SwipeContainer SwipeContainer_allmight;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.StackLayout next;
@@ -44,10 +59,15 @@ namespace Homework5B {
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
             FirstQuestion = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "FirstQuestion");
+            SwipeContainer_dad = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Homework5B.SwipeContainer>(this, "SwipeContainer_dad");
             SecQuestion = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "SecQuestion");
+            SwipeContainer_hero = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Homework5B.SwipeContainer>(this, "SwipeContainer_hero");
             ThirdQuestion = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "ThirdQuestion");
+            SwipeContainer_Villin = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Homework5B.SwipeContainer>(this, "SwipeContainer_Villin");
             ForthQuestion = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "ForthQuestion");
+            SwipeContainer_Deko = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Homework5B.SwipeContainer>(this, "SwipeContainer_Deko");
             QuestionFive = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "QuestionFive");
+            SwipeContainer_allmight = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Homework5B.SwipeContainer>(this, "SwipeContainer_allmight");
             next = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "next");
             rezalt = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "rezalt");
             @out = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "out");
