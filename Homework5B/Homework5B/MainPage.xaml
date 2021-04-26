@@ -23,12 +23,14 @@
                                   x:Name="SwipeContainer_dad"
                                   VerticalOptions="CenterAndExpand"
                                   HorizontalOptions="CenterAndExpand">
-                <BoxView
+                <Image
+                    Source="titalimage"
                     VerticalOptions="CenterAndExpand"
                     HorizontalOptions="CenterAndExpand"
                     WidthRequest="500"
-                    HeightRequest="600"
-                    ></BoxView>
+                    HeightRequest="600"></Image
+                >
+                
                 
             </local:SwipeContainer>
         </StackLayout>
@@ -43,13 +45,13 @@
                                   x:Name="SwipeContainer_hero"
                                   VerticalOptions="CenterAndExpand"
                                   HorizontalOptions="CenterAndExpand">
-                <BoxView
+                
+                <Image
+                    Source="todorokiimg"
                     VerticalOptions="CenterAndExpand"
                     HorizontalOptions="CenterAndExpand"
                     WidthRequest="500"
-                    HeightRequest="600"
-                    Color="Purple"></BoxView>
-                
+                    HeightRequest="600"></Image>
             </local:SwipeContainer>
         </StackLayout>
         
@@ -62,12 +64,12 @@
                                   x:Name="SwipeContainer_Villin"
                                   VerticalOptions="CenterAndExpand"
                                   HorizontalOptions="CenterAndExpand">
-                <BoxView
+                <Image
+                    Source="villinimg"
                     VerticalOptions="CenterAndExpand"
                     HorizontalOptions="CenterAndExpand"
                     WidthRequest="500"
-                    HeightRequest="600"
-                    Color="Red"></BoxView>
+                    HeightRequest="600"></Image>
             </local:SwipeContainer>
         </StackLayout>
         
@@ -80,12 +82,12 @@
                                   x:Name="SwipeContainer_Deko"
                                   VerticalOptions="CenterAndExpand"
                                   HorizontalOptions="CenterAndExpand">
-                <BoxView
+                <Image
+                    Source="bakoimage"
                     VerticalOptions="CenterAndExpand"
                     HorizontalOptions="CenterAndExpand"
                     WidthRequest="500"
-                    HeightRequest="600"
-                    Color="Red"></BoxView>
+                    HeightRequest="600"></Image>
             </local:SwipeContainer>
         </StackLayout>
         
@@ -98,12 +100,12 @@
                                   x:Name="SwipeContainer_allmight"
                                   VerticalOptions="CenterAndExpand"
                                   HorizontalOptions="CenterAndExpand">
-                <BoxView
+                <Image
+                    Source="allmightimg"
                     VerticalOptions="CenterAndExpand"
                     HorizontalOptions="CenterAndExpand"
                     WidthRequest="500"
-                    HeightRequest="600"
-                    Color="Yellow"></BoxView>
+                    HeightRequest="600"></Image>
             </local:SwipeContainer>
         </StackLayout>
         

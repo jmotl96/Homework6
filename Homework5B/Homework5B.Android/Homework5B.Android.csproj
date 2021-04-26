@@ -64,7 +64,10 @@
         <None Include="Properties\AndroidManifest.xml" />
     </ItemGroup>
     <ItemGroup>
-        <AndroidResource Include="Resources\drawable\new.jpg" />
+        <AndroidResource Include="Resources\drawable\allmightimg.png" />
+        <AndroidResource Include="Resources\drawable\bakoimage.png" />
+        <AndroidResource Include="Resources\drawable\titalimage.png" />
+        <AndroidResource Include="Resources\drawable\todorokiimg.png" />
         <AndroidResource Include="Resources\layout\Tabbar.axml" />
         <AndroidResource Include="Resources\layout\Toolbar.axml" />
         <AndroidResource Include="Resources\values\styles.xml" />

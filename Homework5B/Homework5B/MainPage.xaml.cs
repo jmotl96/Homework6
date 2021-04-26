@@ -43,6 +43,7 @@ namespace Homework5B
             {
                 deko += 2;
                 todoroki += 1;
+                
             }
             else
             {

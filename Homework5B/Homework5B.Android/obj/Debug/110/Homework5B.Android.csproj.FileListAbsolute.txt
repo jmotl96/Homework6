@@ -441,3 +441,7 @@ C:\Users\jmotl\RiderProjects\Homework5B\Homework5B\Homework5B.Android\obj\Debug\
 C:\Users\jmotl\RiderProjects\Homework5B\Homework5B\Homework5B.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\jmotl\RiderProjects\Homework5B\Homework5B\Homework5B.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\jmotl\RiderProjects\Homework5B\Homework5B\Homework5B.Android\bin\Debug\Homework5B.dll.mdb
+C:\Users\jmotl\RiderProjects\Homework5B\Homework5B\Homework5B.Android\obj\Debug\110\res\drawable\titalimage.png
+C:\Users\jmotl\RiderProjects\Homework5B\Homework5B\Homework5B.Android\obj\Debug\110\res\drawable\allmightimg.png
+C:\Users\jmotl\RiderProjects\Homework5B\Homework5B\Homework5B.Android\obj\Debug\110\res\drawable\bakoimage.png
+C:\Users\jmotl\RiderProjects\Homework5B\Homework5B\Homework5B.Android\obj\Debug\110\res\drawable\todorokiimg.png
